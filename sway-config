@@ -23,7 +23,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/kaley/Downloads/fabrizio-conti-m5fHSKYSflI-unsplash.jpg fill
 #
 # Example configuration:
 #
@@ -215,11 +215,11 @@ bar {
     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
 
     colors {
-	# Monokai
+	# Monokai pro
         statusline #ffffff
-        background #272822
-        inactive_workspace #272822 #272822 #8c8c8c
-	active_workspace #66d9ef #66d9ef #5c5c5c
+        background #2d2a2e
+        inactive_workspace #2d2a2e #2d2a2e #8c8c8c
+	active_workspace #fc9867 #fc9867 #5c5c5c
     }
 }
 
